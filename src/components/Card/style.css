@@ -1,10 +1,17 @@
 .card {
     display: grid;
+    grid-template-rows: 150px;
     grid-gap: 2px;
     align-items: center;
     text-align: center;
     vertical-align: middle;
     font-weight: bold;
-    grid-template-columns: 20% 25% 5% 5% 15% 30%;
-    grid-template-rows: 150px;
+    background-color: white;
+    grid-template-columns: repeat(auto-fill, 186px);
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 150%;
+    flex-wrap: wrap;
+    text-align: center;
 }
