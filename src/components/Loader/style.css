@@ -5,9 +5,7 @@ height: 20px;
     align-items: flex-end;
     align-content: center;
     text-align: center;
-    /* flex-direction: column; */
     justify-content: center;
-
 }
 .loader {
     display: grid;
