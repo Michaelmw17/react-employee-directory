@@ -1,0 +1,25 @@
+.wrapper {
+    height: 200px;
+    background-color: rgb(70, 144, 241);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.title {
+    font-family: monospace;
+    font-size: xx-large;
+    font-weight: bolder;
+
+}
+
+.tagline {
+
+font-size: large;
+font-weight: bold;
+}
