@@ -109,6 +109,7 @@ class ListHeader extends React.Component {
                                 age={item.dob.age}
                                 phone={item.cell}
                                 email={item.email}
+                                key={item.login.uuid}
                             />
                     ))
                 }
