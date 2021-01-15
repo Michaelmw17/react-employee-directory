@@ -7,11 +7,11 @@
     vertical-align: middle;
     font-weight: bold;
     background-color: white;
-    grid-template-columns: repeat(auto-fill, 186px);
     justify-content: center;
     align-items: center;
     font-family: monospace;
     font-size: 150%;
     flex-wrap: wrap;
-    text-align: center;
+    text-align: center; 
+    grid-template-columns: repeat(auto-fill, 186px);
 }

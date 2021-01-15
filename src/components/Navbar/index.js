@@ -39,13 +39,13 @@ class Navbar extends React.Component {
         return (
             <div>
                 <form className="form">
-                    <input
+                    <input id="search-input" 
                         value={this.state.searchTerm}
                         name="searchTerm"
                         onChange={event => this.handleInputChange(event)}
                         type="text"
                         placeholder="Search"
-                    />
+                    /><i className="fas fa-search"></i>
                 </form>
                 {this.state.filteredEmployees.length > 0 &&
                     <ListHeader key={this.id}  empList={this.state.filteredEmployees} />

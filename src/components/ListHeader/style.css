@@ -8,6 +8,9 @@
     vertical-align: middle;
     font-weight: bold;
     background-color: rgb(32, 108, 207);
+    color: white;
+    padding: 20 0 10 0px;
+
 }
 .age {
     cursor: pointer;

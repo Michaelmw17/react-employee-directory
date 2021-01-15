@@ -1,4 +1,4 @@
-.wrapper {
+.jumbotronOne {
     height: 200px;
     background-color: rgb(70, 144, 241);
     display: flex;
@@ -8,17 +8,18 @@
     vertical-align: middle;
     flex-direction: column;
     justify-content: center;
+    color: white;
+    
 }
 
-.title {
+.display-4 {
     font-family: monospace;
     font-size: xx-large;
     font-weight: bolder;
 
 }
 
-.tagline {
-
+.lead {
 font-size: large;
 font-weight: bold;
 }

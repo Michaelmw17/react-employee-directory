@@ -16,10 +16,13 @@ class App extends React.Component {
         .then(res => {
           this.setState({ employees: res.data.results });
         });
+    
   }
+  
 
 
   render() {
+    
     return (
       <div className="App">
         <SiteHead />

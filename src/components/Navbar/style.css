@@ -1,4 +1,8 @@
-.form {
-   
+.form, .search-input {
+    
+    flex-wrap: wrap;
+    font-size: 17px;
+    width: 100%;
+    background: #f1f1f1;
     background-color: rgb(60, 127, 215);
 }
