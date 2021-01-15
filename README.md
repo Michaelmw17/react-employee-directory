@@ -31,7 +31,7 @@ The application is deployed [here](https://michaelmw17.github.io/react-employee-
 
 *Images of the deployed application:*
 
-![Employee Tracker](./public/Screenshot.png) 
+![Employee Tracker](./Screenshot.png) 
 ## Contact
 
 _Michael Watt_
